@@ -2,7 +2,7 @@
     
 # Integrantes
 * Aman Nayran Santos Ibiapina
-*
+* Guilherme Daniel de Sousa Dias
 *
   
 # Sobre 
