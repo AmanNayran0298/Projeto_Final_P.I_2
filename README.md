@@ -5,4 +5,13 @@
 * Guilherme Daniel de Sousa Dias
 *
   
-# Sobre 
+# Sobre o projeto
+Desenvolvimento de projeto para gerenciamento de oficina mecânica, com funcionalidades como:
+- agendamento de serviços
+- acompanhamento de serviços em andamento
+- histórico de serviços prestados
+- registro de pagamentos
+- registro de compras
+- registro de estoque
+- emissão de relatórios.
+A aplicação irá rodar em ambiente local utilizando uma interface WEB e se comunicando com o banco de dados através de uma interface API.
