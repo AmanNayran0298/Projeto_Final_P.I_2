@@ -3,7 +3,7 @@
 # Integrantes
 * Aman Nayran Santos Ibiapina
 * Guilherme Daniel de Sousa Dias
-*
+* Phelyppe Matheus Silva da Costa
   
 # Sobre o projeto
 Desenvolvimento de projeto para gerenciamento de oficina mecânica, com funcionalidades como:
