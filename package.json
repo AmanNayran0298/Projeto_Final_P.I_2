@@ -1,0 +1,39 @@
+{
+  "name": "sistema-oficina",
+  "version": "0.0.1",
+  "description": "Sistema para gerenciamento de oficina mecânica",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmanNayran0298/Projeto_Final_P.I_2.git"
+  },
+  "keywords": [
+    "sistema",
+    "oficina",
+    "nodejs",
+    "expressjs",
+    "reactjs"
+  ],
+  "author": "Guilherme Daniel de Sousa Dias, Aman Nayran Santos Ibiapina, Phelyppe Matheus Silva da Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmanNayran0298/Projeto_Final_P.I_2/issues"
+  },
+  "homepage": "https://github.com/AmanNayran0298/Projeto_Final_P.I_2#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.12",
+    "nodemon": "^2.0.15",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.2"
+  }
+}
