@@ -20,3 +20,21 @@ Para o desenvolvimento foi escolhido ReactJs para o Frontend e NodeJs com Expres
 - [ ] Registro de estoque
 - [ ] Emissão de relatórios.
 - [ ] Autenticação administrador e colaborador
+
+## Rodando o projeto
+- Clone o repositório
+```
+https://github.com/AmanNayran0298/Projeto_Final_P.I_2.git
+```
+- Entre na pasta com o comando:
+```
+cd ./Projeto_Final_P.I_2
+```
+- No terminal digite:
+```
+npm install
+```
+- Após a instalação digite no terminal:
+```
+npm run dev
+```
