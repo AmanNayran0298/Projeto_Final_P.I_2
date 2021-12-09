@@ -9,6 +9,9 @@ const router = Router()
 // Por exemplo
 // const movieController = new MovieController()
 // router.get('/', movieController.getAll)
+router.get('/', (req: Request, res: Response) => {
+    res.status(200).json({ msg: 'ok'})
+})
 // get by id
 // post
 // create

@@ -4,6 +4,6 @@ import { Router } from "express";
 const router = Router()
 
 // Adicionar rotas
-// router.use('/pedido-orcamento', pedidoOrcaomentoRoutes)
+router.use('/pedido-orcamento', PedidoOrcaomentoRoutes)
 
 export default router

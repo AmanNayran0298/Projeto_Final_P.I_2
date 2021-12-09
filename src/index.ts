@@ -14,8 +14,7 @@ app.use(routes)
 
 
 //
-app.get('/', (req: Request, res: Response) => {
-    res.status(200).json({ msg: 'ok'})
+app.listen(process.env.PORT, () => {
+    console.log("Running at PORT 3000 access http://localhost:3000");
+    
 })
-
-app.listen(PORT)
