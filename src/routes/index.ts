@@ -1,10 +1,10 @@
 import { Router } from "express";
-import pedidoOrcamentoRoute from './PedidoOrcamentoRoute'
+import PedidoOrcamentoRoute from "./PedidoOrcamentoRoute";
 // Importar rotas específicas
 
 const router = Router()
 
 // Adicionar rotas
-router.use('/pedido-orcamento', pedidoOrcamentoRoute)
+router.use('/pedido-orcamento', PedidoOrcamentoRoute)
 
 export default router

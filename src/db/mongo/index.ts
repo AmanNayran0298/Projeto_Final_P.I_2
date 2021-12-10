@@ -8,4 +8,4 @@ const uri = `mongodb+srv://oficina:${PASSWORD}@cluster0.rrgc6.mongodb.net/${DATA
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true })
 
-export default client
+export default client;
