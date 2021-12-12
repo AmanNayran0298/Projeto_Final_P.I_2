@@ -6,16 +6,15 @@ import { MongoPedidoOrcamentoRepository } from "../db/mongo/repositories/MongoPe
 
 export class PedidoOrcamentoController {
     // instanciar repositorio
-    // const mongoDbRepo = new MongoPedidoOrcamentoRepository();
-
+    
     // criar métodos get, create, etc...
     // executar uma query/command passando como parametro o a instancia do repositorio criada
-
+    
     public async getPedido(req: Request, res: Response): Promise<Response> {
-        // const data = mongoDbRepo.getAll()
-        // console.log(data);
-
-        return res.status(200).json({ 'ok': 'ok' })
+        const mongoDbRepo = new MongoPedidoOrcamentoRepository();
+        const data = await mongoDbRepo.getAll()
+        console.log(data);
+        return res.status(200).json(data)
     }
 
     public async createPedido(req: Request, res: Response): Promise<Response> {
