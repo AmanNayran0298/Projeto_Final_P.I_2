@@ -1,4 +1,5 @@
 import { NextFunction, Request, Response } from "express"
+import { User } from "../entities/User"
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 
