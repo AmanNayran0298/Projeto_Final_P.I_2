@@ -1,2 +1,4 @@
 /node_modules
 .env
+src/db/firebase/oficina-5d687-firebase-adminsdk-3v475-ae20bdda70.json
+.gitignore
