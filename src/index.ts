@@ -1,6 +1,8 @@
 import express from "express";
 import cors from 'cors'
 import routes from "./routes";
+const bcrypt = require('bcrypt')
+const jwt = require('jsonwebtoken')
 require('dotenv').config()
 
 const app = express()
