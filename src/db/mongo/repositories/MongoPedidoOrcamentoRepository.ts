@@ -1,8 +1,8 @@
 // essa classe executa os métodos que foram definidos na Interface retornando os resultados
 
 // importar a conexão do banco de dados
-const client = require('../index')
 
+const client = require('../index')
 export class MongoPedidoOrcamentoRepository{
     // adicionar construtor que irá receber a referencia do documento do mongodb
 
@@ -10,6 +10,7 @@ export class MongoPedidoOrcamentoRepository{
         await client.connect()
         const data = client.db("oficina").collection("pedidoOrcamento")
         const getAllPedidos = await data.find()
+        console.log(getAllPedidos)
         return getAllPedidos;
     }
 

@@ -1,16 +1,18 @@
 import { Response, Request } from "express";
+import { MongoPedidoOrcamentoRepository } from "../db/mongo/repositories/MongoPedidoOrcamentoRepository";
 // import { getAll, MongoPedidoOrcamentoRepository } from "../db/mongo/repositories/MongoPedidoOrcamentoRepository";
 // importar repositorio especifico
 // importar comandos
 
 export class PedidoOrcamentoController {
     // instanciar repositorio
+    // const mongoDbRepo = new MongoPedidoOrcamentoRepository();
 
     // criar métodos get, create, etc...
     // executar uma query/command passando como parametro o a instancia do repositorio criada
 
     public async getPedido(req: Request, res: Response): Promise<Response> {
-        // const data = MongoPedidoOrcamentoRepository.getAll()
+        // const data = mongoDbRepo.getAll()
         // console.log(data);
 
         return res.status(200).json({ 'ok': 'ok' })
