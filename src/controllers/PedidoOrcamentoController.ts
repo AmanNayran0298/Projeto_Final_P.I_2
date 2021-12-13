@@ -1,6 +1,5 @@
 import { Response, Request } from "express";
 import { FirebasePedidoOrcamentoRepository } from "../db/firebase/repositories/FirebasePedidoOrcamentoRepository";
-import { MongoPedidoOrcamentoRepository } from "../db/mongo/repositories/MongoPedidoOrcamentoRepository";
 // importar repositorio especifico
 // importar comandos
 export class PedidoOrcamentoController {
@@ -12,10 +11,6 @@ export class PedidoOrcamentoController {
     public async getPedido(req: Request, res: Response): Promise<Response> {
         const data = new FirebasePedidoOrcamentoRepository().getAll();
         console.log(await data);
-
-        // const data = MongoPedidoOrcamentoRepository.getAll()
-        // console.log(data);
-
         return res.status(200).json(await data)
     }
 
