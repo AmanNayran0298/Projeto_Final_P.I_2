@@ -11,5 +11,5 @@ app.use(routes)
 
 
 app.listen(process.env.PORT, () => {
-    console.log("Running at PORT 3000 access http://localhost:3000");
+    console.log(`Running at PORT ${process.env.PORT} access http://localhost:${process.env.PORT}`);
 })
