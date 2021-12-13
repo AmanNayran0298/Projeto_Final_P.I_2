@@ -1,5 +1,5 @@
 import { db } from "..";
-import { crudRepository } from "../../../domain/repositories/CRUDrepositorie";
+import { crudRepository } from "../../../domain/repositories/CRUDRepositorie";
 
 export class FirebasePedidoOrcamentoRepository implements crudRepository {
     // adicionar construtor que irá receber a referencia do documento do mongodb
