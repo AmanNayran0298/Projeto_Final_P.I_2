@@ -1,12 +1,7 @@
 import { Response, Request } from "express";
 import { FirebasePedidoOrcamentoRepository } from "../db/firebase/repositories/FirebasePedidoOrcamentoRepository";
-// importar repositorio especifico
-// importar comandos
-export class PedidoOrcamentoController {
-    // instanciar repositorio
 
-    // criar métodos get, create, etc...
-    // executar uma query/command passando como parametro o a instancia do repositorio criada
+export class PedidoOrcamentoController {
 
     public async getPedido(req: Request, res: Response): Promise<Response> {
         const data = new FirebasePedidoOrcamentoRepository().getAll();

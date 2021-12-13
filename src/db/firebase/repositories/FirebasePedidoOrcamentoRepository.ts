@@ -2,7 +2,6 @@ import { db } from "..";
 import { crudRepository } from "../../../domain/repositories/CRUDRepositorie";
 
 export class FirebasePedidoOrcamentoRepository implements crudRepository {
-    // adicionar construtor que irá receber a referencia do documento do mongodb
 
     public async getAll(): Promise<any[]> {
         const pedidosRef = db.collection('pedidoOrcamento');
