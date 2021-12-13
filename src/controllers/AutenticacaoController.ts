@@ -1,5 +1,5 @@
 import { Request, Response } from "express"
-import { User } from "../entities/User"
+import { User } from "../domain/entities/User"
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 
