@@ -7,7 +7,7 @@
   
 ## Sobre o projeto
 Desenvolvimento de projeto para gerenciamento de oficina mecânica. A aplicação irá rodar em ambiente local utilizando uma interface WEB e se comunicando com o banco de dados através de uma interface API. 
-Para o desenvolvimento foi escolhido ReactJs para o Frontend e NodeJs com ExpressJs para o back-end, para o banco de dados foi escolhido o MongoDB.
+Para o desenvolvimento foi escolhido ReactJs para o Frontend e NodeJs com ExpressJs para o back-end, para o banco de dados foi escolhido o Firebase.
 
 ## Funcionalidades
 - [ ] Agendamento de serviços
